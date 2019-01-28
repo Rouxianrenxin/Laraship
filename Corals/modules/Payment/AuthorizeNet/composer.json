@@ -1,0 +1,5 @@
+{
+  "require": {
+    "authorizenet/authorizenet": "~1.9.6"
+  }
+}

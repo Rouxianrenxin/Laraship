@@ -1,0 +1,15 @@
+{
+  "code": "corals-payment-cash",
+  "name": "Cash Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices... to support Cash on delivery (COD)",
+  "namespace": "Corals\\Modules\\Payment\\Cash",
+  "version": "1.0",
+  "folder": "Cash",
+  "autoload": "psr-4",
+  "icon": "fa fa-money",
+  "require": {
+    "corals-payment": "^1.2"
+  }
+}

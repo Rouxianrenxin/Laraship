@@ -1,0 +1,15 @@
+{
+  "type": "frontend",
+  "name": "corals-express",
+  "extends": null,
+  "caption": "Corals Express",
+  "version": "1.2.1",
+  "assetPath": "assets\/themes\/express",
+  "css": [
+    "css/bootstrap.css",
+    "css/theme.min.css"
+  ],
+  "js": [
+    "js/theme.min.js"
+  ]
+}

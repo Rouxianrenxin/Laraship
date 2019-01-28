@@ -1,0 +1,6 @@
+{
+  "require": {
+    "fleshgrinder/format": "^1.1",
+	"laravel/socialite":"~3.0"
+  }
+}

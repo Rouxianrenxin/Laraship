@@ -1,0 +1,17 @@
+{
+  "code": "corals-licence-manager",
+  "name": "Licence Manager Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Licence Manager for products",
+  "namespace": "Corals\\Modules\\LicenceManager\\",
+  "provider": "LicenceManagerServiceProvider",
+  "version": "1.1",
+  "load_order": "700",
+  "folder": "LicenceManager",
+  "autoload": "psr-4",
+  "icon": "fa fa-barcode",
+  "require": {
+    "corals-ecommerce": "^1.0.4"
+  }
+}

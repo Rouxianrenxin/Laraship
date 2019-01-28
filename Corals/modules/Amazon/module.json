@@ -1,0 +1,17 @@
+{
+  "code": "corals-amazon",
+  "name": "Amazon Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Starter Package",
+  "namespace": "Corals\\Modules\\Amazon\\",
+  "provider": "AmazonServiceProvider",
+  "version": "1.2",
+  "load_order": "0",
+  "folder": "Amazon",
+  "autoload": "psr-4",
+  "icon": "fa fa-amazon",
+  "require": {
+    "corals-ecommerce": "^1.0.1"
+  }
+}

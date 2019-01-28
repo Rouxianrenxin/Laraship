@@ -1,0 +1,1 @@
+<h3>@lang('corals-neptune::labels.partial.sidebar')</h3>

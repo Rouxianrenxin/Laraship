@@ -1,0 +1,17 @@
+{
+  "code": "corals-foundation",
+  "name": "Base Foundation",
+  "author": "Corals",
+  "type": "core",
+  "description": "Corals Frameworks Foundation",
+  "namespace": "Corals\\Foundation",
+  "provider": "FoundationServiceProvider",
+  "version": "1.8.1",
+  "load_order": "100",
+  "folder": "Foundation",
+  "autoload": "psr-4",
+  "icon": "fa fa-bars",
+  "require": {
+    "corals-settings": "^2.2.1"
+  }
+}

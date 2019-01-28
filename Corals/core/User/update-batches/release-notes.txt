@@ -1,0 +1,53 @@
+1.6.1
+-------------------------------------------------------
+
+1.6
+- Add user last name and make phone number optional
+-----------------------------------------------------
+1.5.7
+- add new settings available_registration_roles to the User category
+-----------------------------------------------------
+1.5.6
+- fix Noticiation notifiables collection
+-----------------------------------------------------
+1.5.5
+change can_login to disable_login
+-----------------------------------------------------
+1.5.4
+- add new columns to roles table:
+    - can_login
+    - redirect_url
+    - dashboard_url
+    - dashboard_theme
+-----------------------------------------------------
+1.5.2
+- add cookie consent config
+-----------------------------------------------------
+1.5
+- add email confirmation on registration
+-----------------------------------------------------
+1.4.9
+- enhancements for new admin theme
+-----------------------------------------------------
+1.4.8
+- add properties to users table
+- add ModelPropertiesTrait to User model
+-----------------------------------------------------
+1.4.7
+- change Auth controllers and profile controller to extend AuthBaseController
+-----------------------------------------------------
+1.4.6
+- add notification bcc functionality
+-----------------------------------------------------
+1.4.5
+- add translation feature and enhance breadcrumbs
+-----------------------------------------------------
+1.4
+- Add Social Login
+------------------------------------------
+1.3.3
+- change user registration email to use notification module
+- add notifications.user.registered event in service provider
+--------------------------------------------
+1.3.2
+- fix profile update.

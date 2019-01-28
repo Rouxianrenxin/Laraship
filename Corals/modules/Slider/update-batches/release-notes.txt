@@ -1,0 +1,15 @@
+1.6
+- add description column to slides
+-----------------------------------------------------
+1.4
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+-----------------------------------------------------
+1.3
+add file validation on slide upload
+-------------------------------------------------------
+1.2
+Corals/modules/Slider/Policies/SliderPolicy.php
+Corals/modules/Slider/Policies/SlidePolicy.php
+add slider missing policies
+-------------------------------------------------------

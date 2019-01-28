@@ -1,0 +1,15 @@
+{
+  "code": "corals-file-manager",
+  "name": "File Manager",
+  "author": "Corals",
+  "type": "core",
+  "description": "Manage users files powered by elfinder",
+  "namespace": "Corals\\Elfinder",
+  "provider": "ElfinderServiceProvider",
+  "version": "1.3",
+  "load_order": "30",
+  "folder": "Elfinder",
+  "autoload": "psr-4",
+  "icon": "fa fa-folder-o",
+  "require": {}
+}

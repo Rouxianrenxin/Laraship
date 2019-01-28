@@ -1,0 +1,16 @@
+{
+  "code": "corals-foo",
+  "name": "Foo Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Starter Package",
+  "namespace": "Corals\\Modules\\Foo\\",
+  "provider": "FooServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "Foo",
+  "autoload": "psr-4",
+  "icon": "fa fa-clone",
+  "require": {
+  }
+}

@@ -1,0 +1,164 @@
+@import "./pricingTable.min.css";
+
+.required-field > label::after {
+    content: " \f005";
+    color: #F44336;
+    font-family: FontAwesome;
+    font-size: .6em;
+    vertical-align: super;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none !important;
+}
+
+.form-group.has-error .help-block {
+    color: #ff1f1f;
+}
+
+@media (max-width: 768px) {
+    .sw-theme-arrows > ul.step-anchor > li > a, .sw-theme-arrows > ul.step-anchor > li > a:hover {
+        padding: 8px !important;
+    }
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+select.form-control[multiple] {
+    background: none;
+}
+
+.sw-btn-next {
+    margin-left: 10px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.icheckbox_flat-blue, .iradio_flat-blue {
+    width: 21px;
+    height: 21px;
+}
+
+a.clickable-object {
+    position: relative;
+    display: inline-block;
+}
+
+a.clickable-object:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.tab-content {
+    padding-top: 2rem;
+}
+
+#cart-details .table-responsive {
+    border-radius: 5px;
+}
+
+#cart-details table thead tr {
+    background-color: #50c6e9;
+    color: #FFF;
+}
+
+#cart-details table thead td, #cart-details table thead th {
+    text-align: left;
+}
+
+.custom-control {
+    display: inline-block;
+}
+
+.sw-theme-arrows > ul.step-anchor {
+    display: flex !important;
+}
+
+.shipping-options label {
+    padding-left: 0;
+    display: block;
+}
+
+.sw-btn-group .btn {
+    background-color: #f5f5f5;
+    border-color: #e1e7ec;
+}
+
+.sw-btn-group .btn:hover {
+    background-color: #dcdbdb;
+}
+
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle).btn-secondary, .btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle).btn-outline-secondary {
+    border-right: 1px solid #e1e7ec;
+}
+
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    margin-right: 10px;
+    padding-right: 22px;
+
+}
+
+.just-padding {
+    padding: 15px;
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 45px;
+}
+
+.list-group-item .glyphicon {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-group-item.active {
+    cursor: pointer;
+    pointer-events: initial;
+}
+
+
+.site-search {
+    width: 98%;
+}
+
+
+
+.cart-quantity{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.shipping-options .custom-radio {
+    display: block;
+}

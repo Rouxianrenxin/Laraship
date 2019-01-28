@@ -1,0 +1,106 @@
+1.8.1
+----------------------------------
+Add Core Admin Permission
+
+1.8.0
+- fix CKEDITOR translation
+---------------------------------------
+1.7.9
+- get locale from url in middleware
+---------------------------------------
+1.7.8
+- Add Recovery Service Provider
+---------------------------------------
+1.7.7
+- fix CoralsForm translation when there is no model
+-----------------------------------------------------
+1.7.6
+- fix CoralsForm translation when model not use trait
+-----------------------------------------------------
+1.7.5
+- fix translation form data
+-----------------------------------------------------
+1.7.4
+- add translations to form fields
+-----------------------------------------------------
+1.7.3
+- enhancements for new admin theme
+-----------------------------------------------------
+1.7.2
+- add ModelPropertiesTrait to foundation
+-----------------------------------------------------
+1.7.1
+- fix BaseRequest can method when user not logged in.
+- fix BaseDataTable setResourceUrl use url helper.
+- add CoralsScope
+-----------------------------------------------------
+1.7
+- add cropper to corals assets.
+- add AuthBaseController.
+-----------------------------------------------------
+1.6.9
+- add ModelHelpersTrait
+-----------------------------------------------------
+1.6.8
+- rollback 'static_properties' in config.
+-----------------------------------------------------
+1.6.7
+- handle 'static_properties' in config.
+-----------------------------------------------------
+1.6.6
+- add js.cookie.js to corals plugins.
+-----------------------------------------------------
+1.6.5
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+-----------------------------------------------------
+1.6.0
+- add localization support
+-----------------------------------------------------
+1.5.8
+- add submit button that have name and value to the submitted form parameters
+-----------------------------------------------------
+1.5.7
+- add javascript variable binder to core
+-----------------------------------------------------
+1.5.6
+- update corals function add hash functionality for tabs
+-----------------------------------------------------
+1.5.5
+
+- add schemaHasTable helper function and use it where needed
+- move cachable files to separate folder.
+- handle limited-text textarea in corals_main.js
+-----------------------------------------------------
+1.5
+
+- enhancement to scripts
+    * change ajaxPost function to ajaxRequest and pass the method in the params.
+- fix helper function removeEmptyArrayElement to exclude boolean false values.
+- add helper function generateCopyToClipBoard.
+-----------------------------------------------------
+1.3.6
+- Move core modules service providers registration to FoundationServiceProvider
+- add notification module registration
+-----------------------------------------------------
+1.3.5
+- Add Corals Search Engine
+-----------------------------------------------------
+1.3.4
+- add config registration to foundation.
+- fixes to corals_functions.js
+-----------------------------------------------------
+1.3.3
+- enhance corals scripts
+    corals_functions.js
+    corals_main.js
+
+- enhance BaseTransformer
+    check if components.item_actions view exists or not
+- enhance helpers
+    formatArrayAsLabels support badge for bs4
+    change redirectTo url in response
+-----------------------------------------------------
+1.3.2
+Corals/core/Foundation/Classes/CoralsForm.php
+change select2 tags class to select2-normal tags in handleCustomFieldInput

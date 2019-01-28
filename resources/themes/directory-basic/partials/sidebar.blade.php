@@ -1,0 +1,1 @@
+<h3>@lang('corals-directory-basic::labels.partial.sidebar')</h3>

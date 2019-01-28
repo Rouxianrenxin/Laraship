@@ -1,0 +1,115 @@
+#switch {
+    position: fixed;
+    right: -182px;
+    width: 182px;
+    top: 150px;
+    padding: 8px 20px;
+    background-color: #fff;
+    z-index: 9999;
+    background-color: #f5f5f5;
+    transition: 500ms ease all;
+}
+
+#open-switch {
+    position: absolute;
+    left: -50px;
+    top: 0px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #222;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.open-switch {
+    right: 0px !important;
+}
+
+#switch ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#switch ul li {
+    position: relative;
+    display: block;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    transition: 350ms ease all;
+    cursor: pointer;
+}
+
+#switch ul li:before,
+#switch ul li:after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: -50px;
+    transform: rotate(45deg);
+}
+
+#switch ul li:before {
+    left: -35px
+}
+
+#switch ul li:after {
+    right: -35px
+}
+
+#switch #combo1:before {
+    background-color: #F2BE2E;
+}
+
+#switch #combo1:after {
+    background-color: #3C156B;
+}
+
+#switch #combo2:before {
+    background-color: #92bdce;
+}
+
+#switch #combo2:after {
+    background-color: #1E2570;
+}
+
+#switch #combo3:before {
+    background-color: #8EA604;
+}
+
+#switch #combo3:after {
+    background-color: #212121;
+}
+
+#switch #combo4:before {
+    background-color: #fc9b6b;
+}
+
+#switch #combo4:after {
+    background-color: #305b6b;
+}
+
+#switch #combo5:before {
+    background-color: #ff3c00;
+}
+
+#switch #combo5:after {
+    background-color: #025c53;
+}
+
+#switch #combo6:before {
+    background-color: #ff9c00;
+}
+
+#switch #combo6:after {
+    background-color: #1a2b51;
+}

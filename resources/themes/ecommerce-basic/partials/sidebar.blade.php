@@ -1,0 +1,1 @@
+<h3>@lang('corals-ecommerce-basic::labels.partial.sidebar')</h3>

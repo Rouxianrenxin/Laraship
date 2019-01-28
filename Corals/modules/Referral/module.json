@@ -1,0 +1,16 @@
+{
+  "code": "corals-referral",
+  "name": "Referral Manager",
+  "author": "Corals",
+  "type": "module",
+  "description": "Manage Referral programs links",
+  "namespace": "Corals\\Modules\\Referral\\",
+  "provider": "ReferralServiceProvider",
+  "version": "2.1",
+  "load_order": "0",
+  "folder": "Referral",
+  "autoload": "psr-4",
+  "icon": "fa fa-retweet",
+  "require": {
+  }
+}

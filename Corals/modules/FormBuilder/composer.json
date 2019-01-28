@@ -1,0 +1,7 @@
+{
+  "require": {
+    "aweber/aweber": "^1.1",
+    "nztim/mailchimp": "^3.7",
+    "constantcontact/constantcontact": "3.0.0-alpha"
+  }
+}

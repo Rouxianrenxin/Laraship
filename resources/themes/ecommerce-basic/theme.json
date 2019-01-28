@@ -1,0 +1,24 @@
+{
+  "type": "frontend",
+  "name": "corals-ecommerce-basic",
+  "caption": "Corals eCommerce Basic",
+  "extends": null,
+  "assetPath": "assets\/themes\/ecommerce-basic",
+  "version": "1.4",
+  "css": [
+    "font-awesome-4.7.0/css/font-awesome.min.css",
+    "css/vendor.min.css",
+    "css/styles.css",
+    "plugins/Ladda/ladda-themeless.min.css",
+    "css/custom.css"
+  ],
+  "js": [
+    "js/modernizr.min.js",
+    "js/vendor.min.js",
+    "js/scripts.min.js",
+    "plugins/Ladda/spin.min.js",
+    "plugins/Ladda/ladda.min.js",
+    "js/functions.js",
+    "js/main.js"
+  ]
+}

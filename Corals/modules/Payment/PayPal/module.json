@@ -1,0 +1,15 @@
+{
+  "code": "corals-payment-paypal",
+  "name": "PayPal Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices...",
+  "namespace": "Corals\\Modules\\Payment\\PayPal",
+  "version": "1.5",
+  "folder": "PayPal",
+  "autoload": "psr-4",
+  "icon": "fa fa-cc-paypal",
+  "require": {
+    "corals-payment": "^1.2"
+  }
+}

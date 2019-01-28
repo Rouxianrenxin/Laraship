@@ -1,0 +1,1 @@
+<h3>@lang('corals-express::labels.partial.sidebar')</h3>

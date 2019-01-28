@@ -1,0 +1,12 @@
+{
+  "type": "frontend",
+  "name": "corals-classified-master",
+  "caption": "Classified Master Theme",
+  "extends": null,
+  "assetPath": "assets\/themes\/classified",
+  "version": "1.3",
+  "css": [
+  ],
+  "js": [
+  ]
+}

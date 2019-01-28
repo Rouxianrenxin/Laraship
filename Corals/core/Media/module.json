@@ -1,0 +1,15 @@
+{
+  "code": "corals-media",
+  "name": "Media Manager",
+  "author": "Corals",
+  "type": "core",
+  "description": "Manage images, videos, pdf, doc...",
+  "namespace": "Corals\\Media",
+  "provider": "MediaServiceProvider",
+  "version": "1.3",
+  "load_order": "25",
+  "folder": "Media",
+  "autoload": "psr-4",
+  "icon": "fa fa-image",
+  "require": {}
+}

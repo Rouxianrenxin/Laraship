@@ -1,0 +1,17 @@
+{
+  "type": "frontend",
+  "name": "corals-ecommerce-ultimate",
+  "extends": null,
+  "caption": "Corals Ecommerce ultimate",
+  "version": "1.3",
+  "assetPath": "assets\/themes\/ecommerce-ultimate",
+  "css": [
+    "css/vendor.min.css",
+    "css/styles.css",
+    "font-awesome-4.7.0/css/font-awesome.min.css"
+  ],
+  "js": [
+    "js/vendor.min.js",
+    "js/scripts.min.js"
+  ]
+}

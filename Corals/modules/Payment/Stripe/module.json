@@ -1,0 +1,15 @@
+{
+  "code": "corals-payment-stripe",
+  "name": "Stripe Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices...",
+  "namespace": "Corals\\Modules\\Payment\\Stripe",
+  "version": "1.3.5",
+  "folder": "Stripe",
+  "autoload": "psr-4",
+  "icon": "fa fa-cc-stripe",
+  "require": {
+    "corals-payment": "^1.2"
+  }
+}

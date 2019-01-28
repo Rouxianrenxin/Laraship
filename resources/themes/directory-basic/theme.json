@@ -1,0 +1,21 @@
+{
+  "type": "frontend",
+  "name": "corals-directory-basic",
+  "extends": null,
+  "caption": "Corals Directory basic",
+  "version": "1.3",
+  "assetPath": "assets\/themes\/directory-basic",
+  "css": [
+    "css/plugins.css",
+    "css/color.css",
+    "css/style.css",
+    "css/custom.css"
+  ],
+  "js": [
+    "js/jquery.min.js",
+    "js/bootstrap.min.js",
+    "js/plugins.js",
+    "plugins/Ladda/ladda.min.js"
+
+  ]
+}

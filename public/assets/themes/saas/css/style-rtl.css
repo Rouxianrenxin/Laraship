@@ -1,0 +1,235 @@
+
+
+body {direction:rtl;} 
+
+.center-title:after{
+    right: 50%;
+    margin-right: -50px;
+}
+
+.scrollToTop{
+    left: 10px;
+}
+
+#preloader{
+    right: 0;
+    left: 0;
+}
+
+#preloader-inner{
+    right: 50%;
+    margin: -25px -25px 0 0 ;
+    border-left: 0.5em solid rgba(245, 245, 245, 0.5);
+    border-right: 0.5em solid rgba(245, 245, 245, 0.5);
+}
+
+@media (min-width: 992px){
+    .navbar .nav-item .nav-link{
+        padding-right: .8rem;
+        padding-left: .8rem;
+    }
+
+}
+
+@media (min-width: 1200px){
+    body.boxed-layout .wrapper-boxed .navbar-fixed-bottom, body.boxed-layout .wrapper-boxed .navbar-fixed-top{
+        right: auto;
+        left: auto;
+    }
+
+}
+
+.list > li i{
+    margin-left: 5px;
+}
+
+.dropcap-text:first-letter{
+    margin-left: 10px;
+}
+
+.dropcap-bg:first-letter{
+    margin-left: 10px;
+}
+
+.btn-social i{
+    margin-left: 10px;
+}
+
+.navbar-nav{
+    padding-left: 30px;
+}
+
+.search-nav{
+    left: 15px;
+}
+
+.top-search{
+    left: 15px;
+}
+
+.dropdown-menu .badge{
+    margin-right: 3px;
+}
+
+.dropdown-submenu > .dropdown-menu{
+    right: 100%;
+    margin-right: -1px;
+}
+
+.dropdown-submenu > a:after{
+    float: left;
+    border-width: 5px 5px 5px 0 ;
+    border-right-color: #f7f7f7;
+    margin-left: -5px;
+}
+
+.dropdown-submenu:hover > a:after{
+    border-right-color: #ccc;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu{
+    right: -100%;
+    margin-right: 10px;
+}
+
+.post-meta{
+    padding-right: 40px;
+}
+
+.post-meta:before{
+    right: 0;
+}
+
+.about-author img{
+    margin-left: 15px;
+}
+
+.comments-list li:nth-child(even){
+    padding-right: 30px;
+}
+
+.comments-list img{
+    margin-left: 15px;
+}
+
+.quick-news-list .date{
+    float: right;
+    margin-left: 20px;
+}
+
+.recent-post img{
+    float: right;
+    margin-left: 15px;
+}
+
+.search-form form button{
+    left: 0;
+}
+
+.feedback-box:after{
+    right: 30px;
+    border-color: rgba(255, 0) 255, 255, ;
+    margin-right: -12px;
+}
+
+.testi-info img{
+    float: right;
+    margin-left: 15px;
+}
+
+.feedback-box.light:after{
+    border-color: rgba(255, 0) 255, 255, ;
+}
+
+.step-box h1{
+    right: 0;
+}
+
+.hero-video .video-image{
+    left: 10px;
+}
+
+.video-image .video-play-btn a{
+    right: 50%;
+    margin-right: -40px;
+}
+
+.video-image .video-play-btn a > i{
+    right: 3px;
+}
+
+.hero-video-bg .video-overlay{
+    right: 0;
+}
+
+.hero-particle-bg .video-image{
+    left: 10px;
+}
+
+.feature-icon-left .icon{
+    float: right;
+    margin-left: 20px;
+}
+
+.card .card-header a:after{
+    left: 15px;
+}
+
+.misc-box{
+    padding: 25px 50px 25px 50px ;
+}
+
+.footer .navbar-form{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media (max-width: 991px){
+    .navbar-expand-lg > .container{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .search-nav{
+        margin-right: .9rem;
+        left: 15px;
+    }
+
+    .navbar-toggler-icon{
+        margin-left: 0px;
+    }
+
+    .navbar-toggler-right{
+        left: 2.5em;
+    }
+
+    .navbar-toggler.navbar-toggler-right{
+        left: 49px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .footer .navbar-form{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 576px){
+    .navbar-expand-lg > .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .navbar-light.navbar-transparent .navbar-brand img{
+        right: 15px;
+    }
+
+}
+
+.navbar-brand{
+	    text-align: right;
+}
+

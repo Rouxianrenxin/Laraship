@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * SecurionPay Delete Customer Request.
+ */
+
+namespace Corals\Modules\Payment\SecurionPay\Message;
+
+/**
+ * SecurionPay Fetch Customer Request.
+ *
+ *
+ * @link https://securionpay.com/docs/api#retrieve_customer
+ */
+class FetchCustomerRequest extends AbstractRequest
+{
+    public function getData()
+    {
+        $this->validate('customerReference');
+        return;
+    }
+
+    public function getHttpMethod()
+    {
+        return 'GET';
+    }
+
+    public function getEndpoint()
+    {
+        return $this->endpoint . '/customers/' . $this->getCustomerReference();
+    }
+}

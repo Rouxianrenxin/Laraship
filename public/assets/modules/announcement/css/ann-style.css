@@ -1,0 +1,57 @@
+.mfp-wrap {
+    z-index: 11000;
+}
+
+.mfp-content {
+
+    z-index: 11005;
+}
+
+.ann-white-background {
+    background-color: #fff;
+    padding: 10px;
+}
+
+#announcement-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+#announcement-container {
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#announcement-body {
+    position: relative;
+    min-height: 270px;
+}
+
+#announcement-header {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.mfp-bg {
+    z-index: 11042;
+}
+
+.mfp-wrap {
+    z-index: 11043;
+}
+
+.mfp-content {
+    z-index: 11045;
+}
+
+.mfp-preloader {
+    z-index: 11044;
+}
+
+button.mfp-close,
+button.mfp-arrow {
+    z-index: 11046;
+}

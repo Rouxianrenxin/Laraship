@@ -1,0 +1,2 @@
+Fix Trial Bug
+fix icheck init for ecommerce-checkout.blade.php

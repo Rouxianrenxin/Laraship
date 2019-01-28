@@ -1,0 +1,15 @@
+{
+  "code": "corals-payment-authorizenet",
+  "name": "Authorize.Net Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices...",
+  "namespace": "Corals\\Modules\\Payment\\AuthorizeNet",
+  "version": "2.1",
+  "folder": "AuthorizeNet",
+  "autoload": "psr-4",
+  "icon": "fa fa-credit-card",
+  "require": {
+    "corals-payment": "^1.2"
+  }
+}

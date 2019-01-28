@@ -1,0 +1,19 @@
+{
+  "code": "corals-subscriptions",
+  "name": "Subscriptions Manager",
+  "author": "Corals",
+  "type": "module",
+  "description": "Manage Subscriptions, products, plans...",
+  "namespace": "Corals\\Modules\\Subscriptions",
+  "provider": "SubscriptionsServiceProvider",
+  "version": "1.7.3",
+  "load_order": "600",
+  "folder": "Subscriptions",
+  "autoload": "psr-4",
+  "icon": "fa fa-id-card-o",
+  "require": {
+    "corals-payment": "^1.2",
+    "corals-user": "^1.1",
+    "corals-settings": "^1.7"
+  }
+}

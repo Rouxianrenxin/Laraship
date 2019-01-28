@@ -1,0 +1,7 @@
+1.0
+-Add tables (messaging_discussions, messaging_messags, messaging_participations).
+-Add new menu items (Messaging, Discussions).
+-Add permissions for each model (crud).
+-Add new settings for (discussions pagination, multiple participations)
+
+==============================================

@@ -1,0 +1,16 @@
+1.1.3
+-Add new table for directory_listings_claim,
+-Update user_id to be nullable
+-Add new status pending
+-Add claim to menu
+-Add new permission (listing admin, claim create)
+-Add new settings (Default Rating Status, Default Listing Status, Enable Messaging)
+-Add notification on creating new listing, listing status, listing claim, claim approved, claim decline.
+
+==============================================
+1.1.2
+add notification on creating new listing
+==============================================
+1.1.1
+==============================================
+Change Schedule Settings code

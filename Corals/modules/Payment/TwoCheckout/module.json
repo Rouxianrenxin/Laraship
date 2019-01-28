@@ -1,0 +1,15 @@
+{
+  "code": "corals-payment-twocheckout",
+  "name": "2Checkout Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "Payment Gateway, charges, subscriptions, invoices...",
+  "namespace": "Corals\\Modules\\Payment\\TwoCheckout",
+  "version": "1.1.1",
+  "folder": "TwoCheckout",
+  "autoload": "psr-4",
+  "icon": "fa fa-credit-card",
+  "require": {
+    "corals-payment": "^1.2"
+  }
+}

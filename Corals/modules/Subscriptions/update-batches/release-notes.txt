@@ -1,0 +1,35 @@
+1.7.3
+-----------------------------------
+Add Subscription Admin Permission
+
+1.7.2
+- add SubscriptionPolicy
+------------------------------------------
+1.7.1
+- fix tab content
+    change validSubscriptions to activeSubscriptions
+------------------------------------------
+1.6.1
+- enhancements for new admin theme
+------------------------------------------
+1.5.2
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+-----------------------------------------------------
+1.5.1
+    - Add is_visible column to plans table
+    - add notification on subscription creation, swap and cancellation
+-------------------------------------------------------
+1.5
+Add Shipping Info
+-------------------------------------------------------
+1.4.5
+- Corals/modules/Subscriptions/Classes/Subscription.php
+    fix to createPlan method
+    fix to swapSubscription method
+-------------------------------------------------------
+1.4.4
+use subscription_user_actions filter in user profile active subscription actions
+-------------------------------------------------------
+1.4.3
+fix icheck init for checkout.blade.php

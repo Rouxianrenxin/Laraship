@@ -1,0 +1,22 @@
+@import "https://fontlibrary.org/face/droid-arabic-kufi";
+
+body.compact-menu .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu > li > ul {
+    right: 130px;
+}
+
+@media (max-width: 992px) {
+    body.compact-menu .sidebar.sidebar-left .sidebar-content {
+        position: absolute;
+        min-height: 100vh;
+        height: 100% !important;
+        transform: translate3D(100%, 0, 0);
+    }
+}
+
+html:lang(ar) * {
+    font-family: 'Droid Arabic Kufi', arial !important;
+}
+
+[class^="fa"]:before {
+    font-family: FontAwesome !important
+}

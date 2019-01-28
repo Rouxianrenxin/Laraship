@@ -1,0 +1,31 @@
+1.1
+---------------------------
+Add Module Admin Permission
+---------------------------
+1.0.8
+-Add new table utility_comments
+-Add new status column to utility_ratings
+-Add new menus items (Ratings, Comments)
+-Add new permission Utility::comment.create
+-Add new notifications (Ratings toggle status)
+----------------------------------------
+1.0.7
+- Add Rate Notification
+-----------------------------------------
+1.0.7
+- add Address Policy
+
+-----------------------------------------
+1.0.6
+- add criteria to rating
+------------------------------------------
+1.0.5
+- change thumbnails to use full URL
+------------------------------------------
+1.0.4
+- add prefix to calendar settings
+------------------------------------------
+
+1.0.3
+- enhancements on gallery
+------------------------------------------

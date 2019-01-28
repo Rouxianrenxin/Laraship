@@ -1,0 +1,19 @@
+.toolbar-dropdown, .site-header .site-menu > ul > li .sub-menu {
+    width: 180px;
+}
+
+.shop-view > a.active span, .shop-view > a.active span::before:first-child {
+    left: -6px;
+}
+
+.shop-view > a.grid-view span::before {
+    right: -6px;
+}
+
+.shop-view > a span {
+    left: -8px;
+}
+
+.shop-view > a.active span, .shop-view > a.active span::before, .shop-view > a.active span::after {
+
+}

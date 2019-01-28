@@ -1,0 +1,18 @@
+{
+  "code": "corals-cms-slider",
+  "name": "CMS Slider",
+  "author": "Corals",
+  "type": "module",
+  "description": "Create Images, Video and Html Slides for corals cms",
+  "namespace": "Corals\\Modules\\Slider\\",
+  "provider": "SliderServiceProvider",
+  "version": "1.6",
+  "load_order": "0",
+  "folder": "Slider",
+  "autoload": "psr-4",
+  "icon": "fa fa-clone",
+  "require": {
+    "corals-cms": "^1.2",
+    "corals-settings": "^1.7"
+  }
+}

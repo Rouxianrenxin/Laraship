@@ -1,0 +1,16 @@
+{
+  "code": "corals-messaging",
+  "name": "Messaging Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Internal Messaging System",
+  "namespace": "Corals\\Modules\\Messaging\\",
+  "provider": "MessagingServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "Messaging",
+  "autoload": "psr-4",
+  "icon": "fa fa-mobile",
+  "require": {
+  }
+}

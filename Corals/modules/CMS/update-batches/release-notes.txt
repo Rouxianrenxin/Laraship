@@ -1,0 +1,44 @@
+1.9
+-Add two table for blocks and widgets
+-Add permissions for blocks and widgets
+-Add new menu item (Blocks)
+-Add demo block and widget (pre footer block)
+-Add page content for faqs
+
+------------------------------------------------
+1.8
+-Add (belongs_to) to categories table
+-Update type value for posts
+-Add FAQs to menu
+-Add FAQs permissions
+-Add Faqs page slug settings
+-
+------------------------------------------------
+1.7.1
+---------------------------------
+Add Permission Admin
+
+1.6
+- use Tag from Utility module
+------------------------------------------------
+1.4.9
+- add new boolean column (internal) to posts table.
+- add internal structure for blog and pages.
+------------------------------------------------
+1.4.7
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+------------------------------------------------
+1.4.6
+- add CMS category for related settings
+-------------------------------------------------
+1.4.5
+- fix uninstall postables table remove
+---------------------------------------------------
+1.4.4
+- fix posts casts.
+    move casts from Post model to parent Content model.
+-------------------------------------------------
+1.4.1
+- add setKeywords to Corals/modules/CMS/Classes/SEOTools.php
+- use setKeywords inside setSEO method in Corals/modules/CMS/Http/Controllers/FrontendController.php
